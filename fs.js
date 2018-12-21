@@ -2,12 +2,12 @@ import firebase from 'firebase/app';
 import 'firebase/firestore';
 
 const config = {
-  apiKey: 'AIzaSyDizYaxFNF7VqoC5Xh8cWXUCFlfANBMk9U',
-  authDomain: 'vue-baccarat.firebaseapp.com',
-  databaseURL: 'https://vue-baccarat.firebaseio.com',
-  projectId: 'vue-baccarat',
-  storageBucket: 'vue-baccarat.appspot.com',
-  messagingSenderId: '454292823512',
+  apiKey: 'AIzaSyBFygKUqMMKsP25Xj-12VVNYYs39FnTFq0',
+  authDomain: 'webmcki-baccarat-535f2.firebaseapp.com',
+  databaseURL: 'https://webmcki-baccarat-535f2.firebaseio.com',
+  projectId: 'webmcki-baccarat-535f2',
+  storageBucket: 'webmcki-baccarat-535f2.appspot.com',
+  messagingSenderId: '847640659435',
 };
 firebase.initializeApp(config);
 
