@@ -34,9 +34,9 @@
       <v-layout column align-center>
         <v-flex class="mt-5">
           <v-avatar size="120">
-            <img src="/k.gif">
+            <img src="/img/macgyver.gif">
           </v-avatar>
-          <p class="white--text subheading mt-1">별이아빠 181218</p>
+          <p class="white--text subheading mt-1">별이아빠 181221</p>
         </v-flex>
         <v-flex class="mt-4 mb-3">
           <Popup @projectAdded="snackbar=true"/>
