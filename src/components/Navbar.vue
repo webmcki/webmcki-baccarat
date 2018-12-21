@@ -29,8 +29,8 @@
         <v-icon right>exit_to_app</v-icon>
       </v-btn>
 
-      <v-btn flat color="grey" to="/">
-        <span>로그아웃</span>
+      <v-btn flat color="grey" @click="$emit('login')">
+        <span>로그인액션</span>
         <v-icon right>exit_to_app</v-icon>
       </v-btn>
     </v-toolbar>

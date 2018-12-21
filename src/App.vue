@@ -1,7 +1,7 @@
 
 <template>
   <VApp class="grey lighten-4">
-    <Navbar />
+    <Navbar :login="login"/>
     <VContent class="mx-4 mb-4">
       <RouterView></RouterView>
     </VContent>
@@ -9,6 +9,7 @@
 </template>
 
 <script>
+import { mapActions } from 'vuex';
 import Navbar from './components/Navbar.vue';
 
 export default {
@@ -18,6 +19,11 @@ export default {
   },
   data() {
     return {};
+  },
+  methods: {
+    ...mapActions('user', {
+      login: 'login',
+    }),
   },
 };
 </script>
