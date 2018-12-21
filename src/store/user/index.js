@@ -1,17 +1,25 @@
+import firebase from '../../../fs';
+
 const state = {
-  user: 'an awesome developer',
+  profile: {},
 };
 
 const getters = {
-
 };
 
 const mutations = {
-
 };
 
 const actions = {
-
+  async login({ commit }) {
+    const provider = new firebase.auth.GoogleAuthProvider();
+    try {
+      const result = await firebase.auth().signInWithPopup(provider);
+      console.log(result);
+    } catch (error) {
+      console.log(error);
+    }
+  },
 };
 
 export default {

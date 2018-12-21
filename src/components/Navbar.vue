@@ -24,8 +24,13 @@
         </v-list>
       </v-menu>
 
-      <v-btn flat color="grey">
-        <span>Sign out</span>
+      <v-btn flat color="grey" to="/login">
+        <span>로그인</span>
+        <v-icon right>exit_to_app</v-icon>
+      </v-btn>
+
+      <v-btn flat color="grey" to="/">
+        <span>로그아웃</span>
         <v-icon right>exit_to_app</v-icon>
       </v-btn>
     </v-toolbar>

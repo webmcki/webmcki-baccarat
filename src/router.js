@@ -38,5 +38,10 @@ export default new Router({
       name: 'datatable',
       component: () => import('./components/DataTable.vue'),
     },
+    {
+      path: '/login',
+      name: 'login',
+      component: () => import('./components/Login.vue'),
+    },
   ],
 });
