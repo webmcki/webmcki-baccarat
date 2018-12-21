@@ -173,6 +173,7 @@ export default {
   },
   watch: {
     dialog(val) {
+      // eslint-disable-next-line no-unused-expressions
       val || this.close();
     },
   },
@@ -202,6 +203,7 @@ export default {
       this.dialog = true;
     },
     deleteItem(item) {
+      // eslint-disable-next-line no-unused-expressions
       confirm('Are you sure?')
         && this.ref.doc(item).delete().then(() => {
           console.log('delete OK');
