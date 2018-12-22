@@ -75,6 +75,7 @@ export default {
         { icon: 'folder', text: 'Projects', route: '/projects' },
         { icon: 'person', text: 'Team', route: '/team' },
         { icon: 'folder', text: 'Datatable', route: '/datatable' },
+        { icon: 'person', text: 'TestState', route: '/teststate' },
       ],
       snackbar: false,
     };
